@@ -9,7 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".view.register.RegisterUser"></activity>
+        <activity android:name=".view.roll.RollSubject" />
+        <activity android:name=".view.roll.RollTask" />
+        <activity android:name=".view.reciclyView.Task" />
+        <activity android:name=".view.register.RegisterSubject" />
+        <activity android:name=".view.register.RegisterTask" />
+        <activity android:name=".view.reciclyView.Subject" />
+        <activity android:name=".view.master.Home">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

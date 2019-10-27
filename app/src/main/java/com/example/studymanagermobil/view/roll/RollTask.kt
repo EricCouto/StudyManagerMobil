@@ -1,12 +1,13 @@
-package com.example.studymanagermobil
+package com.example.studymanagermobil.view.roll
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.studymanagermobil.R
 
-class MainActivity : AppCompatActivity() {
+class RollTask : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_roll_task)
     }
 }
